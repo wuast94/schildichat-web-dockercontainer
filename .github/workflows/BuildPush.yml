@@ -1,4 +1,4 @@
-name: Build and Push Schildichat Web
+name: Manual Build and Push Schildichat Web
 
 on:
   workflow_dispatch:
