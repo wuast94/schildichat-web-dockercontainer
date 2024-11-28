@@ -1,0 +1,14 @@
+services:
+  schildichat-web:
+    image: ghcr.io/wuast94/schildichat-web-docker:main
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    volumes:
+      - ./config.json:/usr/share/nginx/html/config.json:ro
+    networks:
+      - schildichat-network
+
+networks:
+  schildichat-network:
+    driver: bridge
