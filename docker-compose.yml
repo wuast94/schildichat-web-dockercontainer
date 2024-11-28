@@ -1,6 +1,6 @@
 services:
   schildichat-web:
-    image: ghcr.io/wuast94/schildichat-web-docker:main
+    image: ghcr.io/wuast94/schildichat-web-dockercontainer:v1.11.86-sc.0.test.0
     ports:
       - "8080:8080"
     restart: unless-stopped
