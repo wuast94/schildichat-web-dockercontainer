@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  VERSION: v1.11.81-sc.0.test.0
+  VERSION: v1.11.86-sc.0.test.0
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
